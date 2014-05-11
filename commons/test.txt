@@ -1,0 +1,988 @@
+Apache Maven 3.0.4
+Maven home: /usr/share/maven
+Java version: 1.7.0_25, vendor: Oracle Corporation
+Java home: /usr/lib/jvm/java-7-openjdk-i386/jre
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "3.5.0-41-generic", arch: "i386", family: "unix"
+[INFO] Error stacktraces are turned on.
+[DEBUG] Reading global settings from /usr/share/maven/conf/settings.xml
+[DEBUG] Reading user settings from /home/ghanshyam/.m2/settings.xml
+[DEBUG] Using local repository at /home/ghanshyam/.m2/repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10 for /home/ghanshyam/.m2/repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project com.yourpackagename:commons:jar:0.1.0: (none)
+[DEBUG] Looking up lifecyle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: com.yourpackagename:commons:jar:0.1.0
+[DEBUG] Tasks:   [clean, package]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building commons 0.1.0
+[INFO] ------------------------------------------------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       com.yourpackagename:commons:0.1.0
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile, runtime, test]
+[DEBUG] Repositories (dependencies): [central (http://repo.maven.apache.org/maven2, releases)]
+[DEBUG] Repositories (plugins)     : [central (http://repo.maven.apache.org/maven2, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:2.3:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <followSymLinks default-value="false">${clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <project default-value="${project}"/>
+  <reportDirectory default-value="${project.reporting.outputDirectory}"/>
+  <skip default-value="false">${clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.3:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <filters>${project.build.filters}</filters>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory>${project.build.outputDirectory}</outputDirectory>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project>${project}</project>
+  <resources>${project.resources}</resources>
+  <session>${session}</session>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir>${basedir}</basedir>
+  <buildDirectory>${project.build.directory}</buildDirectory>
+  <classpathElements>${project.compileClasspathElements}</classpathElements>
+  <compileSourceRoots>${project.compileSourceRoots}</compileSourceRoots>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <encoding>${maven.compiler.encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <fork default-value="false"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory>${project.build.outputDirectory}</outputDirectory>
+  <outputFileName>${project.build.finalName}</outputFileName>
+  <projectArtifact>${project.artifact}</projectArtifact>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <source>${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target>${maven.compiler.target}</target>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.3:testResources (default-testResources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <filters>${project.build.filters}</filters>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory>${project.build.testOutputDirectory}</outputDirectory>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project>${project}</project>
+  <resources>${project.testResources}</resources>
+  <session>${session}</session>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:2.0.2:testCompile (default-testCompile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir>${basedir}</basedir>
+  <buildDirectory>${project.build.directory}</buildDirectory>
+  <classpathElements>${project.testClasspathElements}</classpathElements>
+  <compileSourceRoots>${project.testCompileSourceRoots}</compileSourceRoots>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <encoding>${maven.compiler.encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <fork default-value="false"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory>${project.build.testOutputDirectory}</outputDirectory>
+  <outputFileName>${project.build.finalName}</outputFileName>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skip>${maven.test.skip}</skip>
+  <source>${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target>${maven.compiler.target}</target>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-surefire-plugin:2.10:test (default-test)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <argLine>${argLine}</argLine>
+  <basedir default-value="${basedir}"/>
+  <childDelegation default-value="false">${childDelegation}</childDelegation>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <debugForkedProcess>${maven.surefire.debug}</debugForkedProcess>
+  <disableXmlReport default-value="false">${disableXmlReport}</disableXmlReport>
+  <enableAssertions default-value="true">${enableAssertions}</enableAssertions>
+  <excludedGroups>${excludedGroups}</excludedGroups>
+  <failIfNoTests>${failIfNoTests}</failIfNoTests>
+  <forkMode default-value="once">${forkMode}</forkMode>
+  <forkedProcessTimeoutInSeconds>${surefire.timeout}</forkedProcessTimeoutInSeconds>
+  <groups>${groups}</groups>
+  <junitArtifactName default-value="junit:junit">${junitArtifactName}</junitArtifactName>
+  <jvm>${jvm}</jvm>
+  <localRepository>${localRepository}</localRepository>
+  <objectFactory>${objectFactory}</objectFactory>
+  <parallel>${parallel}</parallel>
+  <parallelMavenExecution default-value="${session.parallel}"/>
+  <perCoreThreadCount default-value="true">${perCoreThreadCount}</perCoreThreadCount>
+  <pluginArtifactMap>${plugin.artifactMap}</pluginArtifactMap>
+  <printSummary default-value="true">${surefire.printSummary}</printSummary>
+  <project default-value="${project}"/>
+  <projectArtifactMap>${project.artifactMap}</projectArtifactMap>
+  <redirectTestOutputToFile default-value="false">${maven.test.redirectTestOutputToFile}</redirectTestOutputToFile>
+  <remoteRepositories>${project.pluginArtifactRepositories}</remoteRepositories>
+  <reportFormat default-value="brief">${surefire.reportFormat}</reportFormat>
+  <reportNameSuffix default-value="">${surefire.reportNameSuffix}</reportNameSuffix>
+  <reportsDirectory default-value="${project.build.directory}/surefire-reports"/>
+  <runOrder default-value="filesystem"/>
+  <session>${session}</session>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <skipExec>${maven.test.skip.exec}</skipExec>
+  <skipTests default-value="false">${skipTests}</skipTests>
+  <test>${test}</test>
+  <testClassesDirectory default-value="${project.build.testOutputDirectory}"/>
+  <testFailureIgnore default-value="false">${maven.test.failure.ignore}</testFailureIgnore>
+  <testNGArtifactName default-value="org.testng:testng">${testNGArtifactName}</testNGArtifactName>
+  <testSourceDirectory default-value="${project.build.testSourceDirectory}"/>
+  <threadCount>${threadCount}</threadCount>
+  <trimStackTrace default-value="true">${trimStackTrace}</trimStackTrace>
+  <useFile default-value="true">${surefire.useFile}</useFile>
+  <useManifestOnlyJar default-value="true">${surefire.useManifestOnlyJar}</useManifestOnlyJar>
+  <useSystemClassLoader default-value="true">${surefire.useSystemClassLoader}</useSystemClassLoader>
+  <useUnlimitedThreads default-value="false">${useUnlimitedThreads}</useUnlimitedThreads>
+  <workingDirectory>${basedir}</workingDirectory>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-jar-plugin:2.2:jar (default-jar)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <classesDirectory>${project.build.outputDirectory}</classesDirectory>
+  <defaultManifestFile>${project.build.outputDirectory}/META-INF/MANIFEST.MF</defaultManifestFile>
+  <finalName default-value="${project.build.finalName}">${jar.finalName}</finalName>
+  <forceCreation default-value="false">${jar.forceCreation}</forceCreation>
+  <outputDirectory>${project.build.directory}</outputDirectory>
+  <project>${project}</project>
+  <useDefaultManifestFile default-value="false">${jar.useDefaultManifestFile}</useDefaultManifestFile>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Could not find metadata org.springframework:spring-beans/maven-metadata.xml in local (/home/ghanshyam/.m2/repository)
+[DEBUG] Skipped remote update check for org.springframework:spring-beans/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Failure to find org.springframework:spring-beans/maven-metadata.xml in http://maven.springframework.org.s3.amazonaws.com/external was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestone has elapsed or updates are forced
+[DEBUG] Failure to find org.springframework:spring-beans/maven-metadata.xml in http://download.java.net/maven/2 was cached in the local repository, resolution will not be reattempted until the update interval of java.net has elapsed or updates are forced
+[DEBUG] Skipped remote update check for org.springframework:spring-beans/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Failure to find org.springframework:spring-beans/maven-metadata.xml in http://mvnrepository.com/artifact/ was cached in the local repository, resolution will not be reattempted until the update interval of com.mvnrepository has elapsed or updates are forced
+[DEBUG] Skipped remote update check for org.springframework:spring-beans/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Failure to find org.springframework:spring-beans/maven-metadata.xml in https://oss.sonatype.org/content/repositories/JBoss was cached in the local repository, resolution will not be reattempted until the update interval of jboss-maven2-release-repository has elapsed or updates are forced
+[DEBUG] Failure to find org.springframework:spring-beans/maven-metadata.xml in http://eaio.com/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of eaio.com has elapsed or updates are forced
+[DEBUG] Skipped remote update check for org.springframework:spring-beans/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Failure to find org.springframework:spring-beans/maven-metadata.xml in http://download.java.net/maven/glassfish was cached in the local repository, resolution will not be reattempted until the update interval of glassfish-maven-repository.dev.java.net has elapsed or updates are forced
+[DEBUG] Skipped remote update check for org.springframework:spring-beans/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Skipped remote update check for org.springframework:spring-beans/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Failure to find org.springframework:spring-beans/maven-metadata.xml in http://repository.apache.org/content/groups/snapshots-group/ was cached in the local repository, resolution will not be reattempted until the update interval of people.apache.snapshots has elapsed or updates are forced
+[DEBUG] Skipped remote update check for org.springframework:spring-beans/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.springframework:spring-expression/maven-metadata.xml in local (/home/ghanshyam/.m2/repository)
+[DEBUG] Skipped remote update check for org.springframework:spring-expression/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Failure to find org.springframework:spring-expression/maven-metadata.xml in http://maven.springframework.org.s3.amazonaws.com/external was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestone has elapsed or updates are forced
+[DEBUG] Failure to find org.springframework:spring-expression/maven-metadata.xml in http://download.java.net/maven/2 was cached in the local repository, resolution will not be reattempted until the update interval of java.net has elapsed or updates are forced
+[DEBUG] Skipped remote update check for org.springframework:spring-expression/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Failure to find org.springframework:spring-expression/maven-metadata.xml in http://mvnrepository.com/artifact/ was cached in the local repository, resolution will not be reattempted until the update interval of com.mvnrepository has elapsed or updates are forced
+[DEBUG] Skipped remote update check for org.springframework:spring-expression/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Failure to find org.springframework:spring-expression/maven-metadata.xml in https://oss.sonatype.org/content/repositories/JBoss was cached in the local repository, resolution will not be reattempted until the update interval of jboss-maven2-release-repository has elapsed or updates are forced
+[DEBUG] Failure to find org.springframework:spring-expression/maven-metadata.xml in http://eaio.com/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of eaio.com has elapsed or updates are forced
+[DEBUG] Skipped remote update check for org.springframework:spring-expression/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Failure to find org.springframework:spring-expression/maven-metadata.xml in http://download.java.net/maven/glassfish was cached in the local repository, resolution will not be reattempted until the update interval of glassfish-maven-repository.dev.java.net has elapsed or updates are forced
+[DEBUG] Skipped remote update check for org.springframework:spring-expression/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Skipped remote update check for org.springframework:spring-expression/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Failure to find org.springframework:spring-expression/maven-metadata.xml in http://repository.apache.org/content/groups/snapshots-group/ was cached in the local repository, resolution will not be reattempted until the update interval of people.apache.snapshots has elapsed or updates are forced
+[DEBUG] Skipped remote update check for org.springframework:spring-expression/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.springframework:spring-beans/maven-metadata.xml in local (/home/ghanshyam/.m2/repository)
+[DEBUG] Skipped remote update check for org.springframework:spring-beans/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Failure to find org.springframework:spring-beans/maven-metadata.xml in http://maven.springframework.org.s3.amazonaws.com/external was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestone has elapsed or updates are forced
+[DEBUG] Failure to find org.springframework:spring-beans/maven-metadata.xml in http://download.java.net/maven/2 was cached in the local repository, resolution will not be reattempted until the update interval of java.net has elapsed or updates are forced
+[DEBUG] Skipped remote update check for org.springframework:spring-beans/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Failure to find org.springframework:spring-beans/maven-metadata.xml in http://mvnrepository.com/artifact/ was cached in the local repository, resolution will not be reattempted until the update interval of com.mvnrepository has elapsed or updates are forced
+[DEBUG] Skipped remote update check for org.springframework:spring-beans/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Failure to find org.springframework:spring-beans/maven-metadata.xml in https://oss.sonatype.org/content/repositories/JBoss was cached in the local repository, resolution will not be reattempted until the update interval of jboss-maven2-release-repository has elapsed or updates are forced
+[DEBUG] Failure to find org.springframework:spring-beans/maven-metadata.xml in http://eaio.com/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of eaio.com has elapsed or updates are forced
+[DEBUG] Skipped remote update check for org.springframework:spring-beans/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Failure to find org.springframework:spring-beans/maven-metadata.xml in http://download.java.net/maven/glassfish was cached in the local repository, resolution will not be reattempted until the update interval of glassfish-maven-repository.dev.java.net has elapsed or updates are forced
+[DEBUG] Skipped remote update check for org.springframework:spring-beans/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Skipped remote update check for org.springframework:spring-beans/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Failure to find org.springframework:spring-beans/maven-metadata.xml in http://repository.apache.org/content/groups/snapshots-group/ was cached in the local repository, resolution will not be reattempted until the update interval of people.apache.snapshots has elapsed or updates are forced
+[DEBUG] Skipped remote update check for org.springframework:spring-beans/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.springframework:spring-tx/maven-metadata.xml in local (/home/ghanshyam/.m2/repository)
+[DEBUG] Skipped remote update check for org.springframework:spring-tx/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Failure to find org.springframework:spring-tx/maven-metadata.xml in http://maven.springframework.org.s3.amazonaws.com/external was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestone has elapsed or updates are forced
+[DEBUG] Failure to find org.springframework:spring-tx/maven-metadata.xml in http://download.java.net/maven/2 was cached in the local repository, resolution will not be reattempted until the update interval of java.net has elapsed or updates are forced
+[DEBUG] Skipped remote update check for org.springframework:spring-tx/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Failure to find org.springframework:spring-tx/maven-metadata.xml in http://mvnrepository.com/artifact/ was cached in the local repository, resolution will not be reattempted until the update interval of com.mvnrepository has elapsed or updates are forced
+[DEBUG] Skipped remote update check for org.springframework:spring-tx/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Failure to find org.springframework:spring-tx/maven-metadata.xml in https://oss.sonatype.org/content/repositories/JBoss was cached in the local repository, resolution will not be reattempted until the update interval of jboss-maven2-release-repository has elapsed or updates are forced
+[DEBUG] Failure to find org.springframework:spring-tx/maven-metadata.xml in http://eaio.com/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of eaio.com has elapsed or updates are forced
+[DEBUG] Skipped remote update check for org.springframework:spring-tx/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Failure to find org.springframework:spring-tx/maven-metadata.xml in http://download.java.net/maven/glassfish was cached in the local repository, resolution will not be reattempted until the update interval of glassfish-maven-repository.dev.java.net has elapsed or updates are forced
+[DEBUG] Skipped remote update check for org.springframework:spring-tx/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Skipped remote update check for org.springframework:spring-tx/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Failure to find org.springframework:spring-tx/maven-metadata.xml in http://repository.apache.org/content/groups/snapshots-group/ was cached in the local repository, resolution will not be reattempted until the update interval of people.apache.snapshots has elapsed or updates are forced
+[DEBUG] Skipped remote update check for org.springframework:spring-tx/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] com.yourpackagename:commons:jar:0.1.0
+[DEBUG]    com.yourpackagename:common-deps:pom:0.1.0:compile
+[DEBUG]       javax:javaee-web-api:jar:6.0:compile
+[DEBUG]       com.sun.faces:jsf-api:jar:2.1.2:compile
+[DEBUG]       com.sun.faces:jsf-impl:jar:2.1.2:compile
+[DEBUG]       javax.servlet.jsp:jsp-api:jar:2.1:compile
+[DEBUG]       javax.servlet:jstl:jar:1.2:compile
+[DEBUG]       org.apache.velocity:velocity:jar:1.7:compile
+[DEBUG]          commons-lang:commons-lang:jar:2.4:compile
+[DEBUG]       org.freemarker:freemarker:jar:2.3.19:compile
+[DEBUG]       org.springframework:spring-core:jar:3.1.1.RELEASE:compile
+[DEBUG]          org.springframework:spring-asm:jar:3.1.1.RELEASE:compile
+[DEBUG]       org.springframework:spring-context:jar:3.1.1.RELEASE:compile
+[DEBUG]          org.springframework:spring-expression:jar:3.1.1.RELEASE:compile
+[DEBUG]       org.springframework:spring-webmvc:jar:3.1.1.RELEASE:compile
+[DEBUG]          org.springframework:spring-context-support:jar:3.1.1.RELEASE:compile
+[DEBUG]       org.springframework:spring-web:jar:3.1.1.RELEASE:compile
+[DEBUG]          aopalliance:aopalliance:jar:1.0:compile
+[DEBUG]       org.springframework:spring-aop:jar:3.1.1.RELEASE:compile
+[DEBUG]       org.springframework:spring-tx:jar:3.1.1.RELEASE:compile
+[DEBUG]       org.springframework:spring-orm:jar:3.1.1.RELEASE:compile
+[DEBUG]       org.springframework:spring-jdbc:jar:3.1.1.RELEASE:compile
+[DEBUG]       org.springframework:spring-oxm:jar:3.1.1.RELEASE:compile
+[DEBUG]       org.springframework:spring-beans:jar:3.1.1.RELEASE:compile
+[DEBUG]       org.springframework:spring-jms:jar:3.1.1.RELEASE:compile
+[DEBUG]       org.springframework.social:spring-social-core:jar:1.0.1.RELEASE:compile
+[DEBUG]       org.springframework.data:spring-data-mongodb:jar:1.0.1.RELEASE:compile
+[DEBUG]          org.springframework.data:spring-data-commons-core:jar:1.2.1.RELEASE:compile
+[DEBUG]       org.hibernate:hibernate-core:jar:4.0.0.Final:compile
+[DEBUG]          antlr:antlr:jar:2.7.7:compile
+[DEBUG]          org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:jar:1.0.0.Final:compile
+[DEBUG]          dom4j:dom4j:jar:1.6.1:compile
+[DEBUG]          org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final:compile
+[DEBUG]          org.jboss.logging:jboss-logging:jar:3.1.0.CR2:compile
+[DEBUG]          com.fasterxml:classmate:jar:0.5.4:compile
+[DEBUG]          org.jboss:jandex:jar:1.0.3.Final:compile
+[DEBUG]          org.hibernate.common:hibernate-commons-annotations:jar:4.0.1.Final:compile
+[DEBUG]       org.hibernate:hibernate-entitymanager:jar:4.0.0.Final:compile
+[DEBUG]       org.hibernate:hibernate-c3p0:jar:4.0.0.Final:compile
+[DEBUG]       javassist:javassist:jar:3.12.1.GA:compile
+[DEBUG]       mysql:mysql-connector-java:jar:5.1.18:compile
+[DEBUG]       c3p0:c3p0:jar:0.9.1.2:compile
+[DEBUG]       org.mongodb:mongo-java-driver:jar:2.7.3:compile
+[DEBUG]       org.hibernate:hibernate-validator:jar:4.2.0.Final:compile
+[DEBUG]          javax.validation:validation-api:jar:1.0.0.GA:compile
+[DEBUG]       org.apache.tiles:tiles-core:jar:2.2.2:compile
+[DEBUG]          org.apache.tiles:tiles-api:jar:2.2.2:compile
+[DEBUG]          commons-digester:commons-digester:jar:2.0:compile
+[DEBUG]       org.apache.tiles:tiles-jsp:jar:2.2.2:compile
+[DEBUG]          org.apache.tiles:tiles-servlet:jar:2.2.2:compile
+[DEBUG]          org.apache.tiles:tiles-template:jar:2.2.2:compile
+[DEBUG]       org.quartz-scheduler:quartz:jar:2.1.3:compile
+[DEBUG]       org.apache.camel:camel-core:jar:2.9.1:compile
+[DEBUG]       org.apache.camel:camel-quartz:jar:2.9.1:compile
+[DEBUG]       org.apache.camel:camel-jms:jar:2.9.1:compile
+[DEBUG]          org.apache.camel:camel-spring:jar:2.9.1:compile
+[DEBUG]       org.apache.camel:camel-shiro:jar:2.9.1:compile
+[DEBUG]          org.apache.servicemix.bundles:org.apache.servicemix.bundles.shiro:jar:1.1.0_2:compile
+[DEBUG]       org.apache.activemq:activemq-core:jar:5.5.1:compile
+[DEBUG]          org.apache.geronimo.specs:geronimo-jms_1.1_spec:jar:1.1.1:compile
+[DEBUG]          org.apache.activemq:activeio-core:jar:3.1.2:compile
+[DEBUG]          org.apache.activemq:kahadb:jar:5.5.1:compile
+[DEBUG]          org.apache.activemq.protobuf:activemq-protobuf:jar:1.1:compile
+[DEBUG]          org.osgi:org.osgi.core:jar:4.1.0:compile
+[DEBUG]          org.apache.geronimo.specs:geronimo-j2ee-management_1.1_spec:jar:1.0.1:compile
+[DEBUG]          commons-net:commons-net:jar:2.0:compile
+[DEBUG]          org.jasypt:jasypt:jar:1.7:compile
+[DEBUG]       org.apache.shiro:shiro-core:jar:1.2.0:compile
+[DEBUG]          commons-beanutils:commons-beanutils:jar:1.8.3:compile
+[DEBUG]       org.apache.shiro:shiro-web:jar:1.2.0:compile
+[DEBUG]       org.apache.shiro:shiro-spring:jar:1.2.0:compile
+[DEBUG]       se.scalablesolutions.akka:akka-actor:jar:1.3.1:compile
+[DEBUG]       se.scalablesolutions.akka:akka-spring:jar:1.3.1:compile
+[DEBUG]          se.scalablesolutions.akka:akka-typed-actor:jar:1.3.1:compile
+[DEBUG]             org.guiceyfruit:guice-all:jar:2.0:compile
+[DEBUG]             org.codehaus.aspectwerkz:aspectwerkz:jar:2.2.3:compile
+[DEBUG]             se.scalablesolutions.akka:akka-stm:jar:1.3.1:compile
+[DEBUG]                org.multiverse:multiverse-alpha:jar:0.6.2:compile
+[DEBUG]          se.scalablesolutions.akka:akka-remote:jar:1.3.1:compile
+[DEBUG]             org.jboss.netty:netty:jar:3.2.5.Final:compile
+[DEBUG]             net.debasishg:sjson_2.9.0:jar:0.11:compile
+[DEBUG]                net.databinder:dispatch-json_2.9.0:jar:0.8.1:compile
+[DEBUG]                org.objenesis:objenesis:jar:1.2:compile
+[DEBUG]             voldemort.store.compress:h2-lzf:jar:1.0:compile
+[DEBUG]             com.google.protobuf:protobuf-java:jar:2.4.1:compile
+[DEBUG]          se.scalablesolutions.akka:akka-camel-typed:jar:1.3.1:compile
+[DEBUG]       se.scalablesolutions.akka:akka-camel:jar:1.3.1:compile
+[DEBUG]          se.scalablesolutions.akka:akka-slf4j:jar:1.3.1:compile
+[DEBUG]       org.scala-lang:scala-library:jar:2.9.2:compile
+[DEBUG]       com.eaio.uuid:uuid:jar:3.3:compile
+[DEBUG]       joda-time:joda-time:jar:2.0:compile
+[DEBUG]       commons-fileupload:commons-fileupload:jar:1.2.2:compile
+[DEBUG]       commons-io:commons-io:jar:2.1:compile
+[DEBUG]       javax.mail:mail:jar:1.4.4:compile
+[DEBUG]          javax.activation:activation:jar:1.1:compile
+[DEBUG]       javax.jms:jms:jar:1.1:compile
+[DEBUG]       org.apache.jcs:jcs:jar:1.3:compile
+[DEBUG]          commons-logging:commons-logging:jar:1.1:compile
+[DEBUG]             log4j:log4j:jar:1.2.12:compile
+[DEBUG]             logkit:logkit:jar:1.0.1:compile
+[DEBUG]             avalon-framework:avalon-framework:jar:4.1.3:compile
+[DEBUG]             javax.servlet:servlet-api:jar:2.3:compile
+[DEBUG]          concurrent:concurrent:jar:1.0:compile
+[DEBUG]       org.apache.commons:commons-digester3:jar:3.2:compile
+[DEBUG]       commons-collections:commons-collections:jar:3.2.1:compile
+[DEBUG]       commons-httpclient:commons-httpclient:jar:3.1:compile
+[DEBUG]          commons-codec:commons-codec:jar:1.2:compile
+[DEBUG]       commons-dbcp:commons-dbcp:jar:1.4:compile
+[DEBUG]          commons-pool:commons-pool:jar:1.5.4:compile
+[DEBUG]       org.apache.commons:commons-email:jar:1.1:compile
+[DEBUG]       commons-math:commons-math:jar:1.2:compile
+[DEBUG]       org.aspectj:aspectjrt:jar:1.6.12:compile
+[DEBUG]       org.aspectj:aspectjtools:jar:1.6.12:compile
+[DEBUG]       cglib:cglib:jar:2.2.2:compile
+[DEBUG]          asm:asm:jar:3.3.1:compile
+[DEBUG]       org.codehaus.jackson:jackson-mapper-asl:jar:1.9.2:compile
+[DEBUG]       org.codehaus.jackson:jackson-core-asl:jar:1.9.2:compile
+[DEBUG]       xerces:xercesImpl:jar:2.10.0:compile
+[DEBUG]          xml-apis:xml-apis:jar:1.4.01:compile
+[DEBUG]       org.codehaus.castor:castor-xml:jar:1.3.1:compile
+[DEBUG]          org.codehaus.castor:castor-core:jar:1.3.1:compile
+[DEBUG]       com.thoughtworks.xstream:xstream:jar:1.4.2:compile
+[DEBUG]          xmlpull:xmlpull:jar:1.1.3.1:compile
+[DEBUG]          xpp3:xpp3_min:jar:1.1.4c:compile
+[DEBUG]       org.projectlombok:lombok:jar:0.10.6:compile
+[DEBUG]       org.slf4j:slf4j-api:jar:1.6.4:compile
+[DEBUG]       org.slf4j:jcl-over-slf4j:jar:1.6.4:compile
+[DEBUG]       ch.qos.logback:logback-core:jar:1.0.1:compile
+[DEBUG]       ch.qos.logback:logback-classic:jar:1.0.1:compile
+[DEBUG]       junit:junit:jar:4.10:compile
+[DEBUG]          org.hamcrest:hamcrest-core:jar:1.1:compile
+[INFO] 
+[INFO] --- maven-clean-plugin:2.3:clean (default-clean) @ commons ---
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.transfer < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.metadata < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.collection < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.version < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.artifact < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.spi < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.graph < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.impl < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.deployment < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.installation < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.resolution < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG] Populating class realm maven.api
+[DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:2.3:
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven.shared:file-management:jar:1.2.1:compile
+[DEBUG]       org.apache.maven.shared:maven-shared-io:jar:1.1:compile
+[DEBUG]          org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-6:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:1.5.6:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.3
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.3
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.3
+[DEBUG]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:2.3
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.apache.maven.shared:file-management:jar:1.2.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-io:jar:1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.6
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1-alpha-2
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-6
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-clean-plugin:2.3:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:2.3, parent: sun.misc.Launcher$AppClassLoader@1941dc9]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-clean-plugin:2.3:clean' with basic configurator -->
+[DEBUG]   (f) directory = /home/ghanshyam/Desktop/projectGIT/spring-hibernate-springdata-springmvc-maven-project-framework/commons/target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = /home/ghanshyam/Desktop/projectGIT/spring-hibernate-springdata-springmvc-maven-project-framework/commons/target/classes
+[DEBUG]   (f) project = MavenProject: com.yourpackagename:commons:0.1.0 @ /home/ghanshyam/Desktop/projectGIT/spring-hibernate-springdata-springmvc-maven-project-framework/commons/pom.xml
+[DEBUG]   (f) reportDirectory = /home/ghanshyam/Desktop/projectGIT/spring-hibernate-springdata-springmvc-maven-project-framework/commons/target/site
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = /home/ghanshyam/Desktop/projectGIT/spring-hibernate-springdata-springmvc-maven-project-framework/commons/target/test-classes
+[DEBUG] -- end configuration --
+[INFO] Deleting file set: /home/ghanshyam/Desktop/projectGIT/spring-hibernate-springdata-springmvc-maven-project-framework/commons/target (included: [**], excluded: [])
+[INFO] Scanning for deletable directories.
+[INFO] Adding symbolic link dirs which were previously excluded to the list being deleted.
+[DEBUG] Originally marked for delete: [classes, ]
+[DEBUG] Marked for preserve (with followSymlinks == false): []
+[DEBUG] Symlinks marked for deletion (originally mismarked): []
+[INFO] Re-scanning for deletable files.
+[INFO] Adding symbolic link files which were previously excluded to the list being deleted.
+[DEBUG] Originally marked for delete: [classes, ]
+[DEBUG] Marked for preserve (with followSymlinks == false): []
+[DEBUG] Symlinks marked for deletion (originally mismarked): []
+[DEBUG] Found deletable paths: [classes
+ ]
+[DEBUG] Checking for symlink:
+File's canonical path: /home/ghanshyam/Desktop/projectGIT/spring-hibernate-springdata-springmvc-maven-project-framework/commons/target/classes
+File's absolute path with canonical parent: /home/ghanshyam/Desktop/projectGIT/spring-hibernate-springdata-springmvc-maven-project-framework/commons/target/classes
+[INFO] Deleting directory: /home/ghanshyam/Desktop/projectGIT/spring-hibernate-springdata-springmvc-maven-project-framework/commons/target/classes
+[DEBUG] Checking for symlink:
+File's canonical path: /home/ghanshyam/Desktop/projectGIT/spring-hibernate-springdata-springmvc-maven-project-framework/commons/target
+File's absolute path with canonical parent: /home/ghanshyam/Desktop/projectGIT/spring-hibernate-springdata-springmvc-maven-project-framework/commons/target
+[INFO] Deleting directory: /home/ghanshyam/Desktop/projectGIT/spring-hibernate-springdata-springmvc-maven-project-framework/commons/target
+[DEBUG] Skipping non-existing directory: /home/ghanshyam/Desktop/projectGIT/spring-hibernate-springdata-springmvc-maven-project-framework/commons/target/classes
+[DEBUG] Skipping non-existing directory: /home/ghanshyam/Desktop/projectGIT/spring-hibernate-springdata-springmvc-maven-project-framework/commons/target/test-classes
+[DEBUG] Skipping non-existing directory: /home/ghanshyam/Desktop/projectGIT/spring-hibernate-springdata-springmvc-maven-project-framework/commons/target/site
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ commons ---
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:2.3:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:1.5.6:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:1.0-beta-2:compile
+[DEBUG]       org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]          org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]          org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[DEBUG]             org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]          org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]          commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]          org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]          org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.6:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.3
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.3
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.3
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:2.3
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.6
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:1.0-beta-2
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1-alpha-2
+[DEBUG]   Excluded: org.apache.maven:maven-core:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-error-diagnostics:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-descriptor:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.3:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.3, parent: sun.misc.Launcher$AppClassLoader@1941dc9]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.3:resources' with basic configurator -->
+[DEBUG]   (f) filters = []
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /home/ghanshyam/Desktop/projectGIT/spring-hibernate-springdata-springmvc-maven-project-framework/commons/target/classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: com.yourpackagename:commons:0.1.0 @ /home/ghanshyam/Desktop/projectGIT/spring-hibernate-springdata-springmvc-maven-project-framework/commons/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /home/ghanshyam/Desktop/projectGIT/spring-hibernate-springdata-springmvc-maven-project-framework/commons/src/main/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@54841c
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=Oracle Corporation, env.SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1934,unix/ubuntu:/tmp/.ICE-unix/1934, env.LESSOPEN=| /usr/bin/lesspipe %s, sun.java.launcher=SUN_STANDARD, sun.management.compiler=HotSpot Tiered Compilers, env._system_arch=i386, env.GEM_HOME=/home/ghanshyam/.rvm/gems/ruby-2.1.1, os.name=Linux, sun.boot.class.path=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/netx.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/plugin.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/classes, env.PWD=/home/ghanshyam/Desktop/projectGIT/spring-hibernate-springdata-springmvc-maven-project-framework/commons, env.XDG_SESSION_COOKIE=8692a5b87b3a3007aff8d1ed51cc2e73-1399812540.758332-2084589344, sun.desktop=gnome, env.LANG=en_US.UTF-8, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.7.0_25-b30, env.MY_RUBY_HOME=/home/ghanshyam/.rvm/rubies/ruby-2.1.1, env.DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path, env.DISPLAY=:0.0, env.rvm_version=1.25.22 (stable), user.name=ghanshyam, env._=/usr/bin/mvn, maven.build.version=Apache Maven 3.0.4, env.USER=ghanshyam, env.SHELL=/bin/bash, env.DESKTOP_SESSION=ubuntu, env.XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/, env._system_type=Linux, env.PATH=/home/ghanshyam/.rvm/gems/ruby-2.1.1/bin:/home/ghanshyam/.rvm/gems/ruby-2.1.1@global/bin:/home/ghanshyam/.rvm/rubies/ruby-2.1.1/bin:/home/ghanshyam/bin:/home/ghanshyam/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/ghanshyam/.rvm/bin, env.XDG_CURRENT_DESKTOP=Unity, user.language=en, env.rvm_prefix=/home/ghanshyam, sun.boot.library.path=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386, classworlds.conf=/usr/share/maven/bin/m2.conf, env.rvm_path=/home/ghanshyam/.rvm, java.version=1.7.0_25, user.timezone=, env.DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-Ly2tRyzH5w,guid=f07c79c760f8f0b65e10fb16536f71bd, sun.arch.data.model=32, env.COMPIZ_CONFIG_PROFILE=ubuntu, env._system_name=Ubuntu, env.SSH_AGENT_PID=1971, java.endorsed.dirs=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/endorsed, sun.cpu.isalist=, sun.jnu.encoding=UTF-8, env.rvm_bin_path=/home/ghanshyam/.rvm/bin, file.encoding.pkg=sun.io, env.SHLVL=1, file.separator=/, env._system_version=12.10, java.specification.name=Java Platform API Specification, env.GNOME_DESKTOP_SESSION_ID=this-is-deprecated, java.class.version=51.0, env.GDMSESSION=ubuntu, user.country=US, env.GNOME_KEYRING_PID=1923, java.home=/usr/lib/jvm/java-7-openjdk-i386/jre, java.vm.info=mixed mode, env.LOGNAME=ghanshyam, os.version=3.5.0-41-generic, path.separator=:, java.vm.version=23.7-b01, env.XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0, env.IRBRC=/home/ghanshyam/.rvm/rubies/ruby-2.1.1/.irbrc, env.JAVA_HOME=/usr/lib/jvm/java-7-openjdk-i386, java.awt.printerjob=sun.print.PSPrinterJob, env.TERM=xterm, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.X11.XToolkit, env.GEM_PATH=/home/ghanshyam/.rvm/gems/ruby-2.1.1:/home/ghanshyam/.rvm/gems/ruby-2.1.1@global, user.home=/home/ghanshyam, env.OLDPWD=/home/ghanshyam/Desktop/projectGIT/spring-hibernate-springdata-springmvc-maven-project-framework/commons, java.specification.vendor=Oracle Corporation, env.WINDOWID=65011718, java.vendor.url=http://java.oracle.com/, java.library.path=/usr/java/packages/lib/i386:/usr/lib/jni:/lib:/usr/lib, java.vm.vendor=Oracle Corporation, java.runtime.name=OpenJDK Runtime Environment, maven.home=/usr/share/maven, java.class.path=/usr/share/maven/boot/plexus-classworlds-2.x.jar, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher clean package --debug, maven.version=3.0.4, env.UBUNTU_MENUPROXY=libappmenu.so, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.7, sun.os.patch.level=unknown, sun.cpu.endian=little, env.HOME=/home/ghanshyam, env.XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0, env.LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:, java.io.tmpdir=/tmp, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.SSH_AUTH_SOCK=/run/user/ghanshyam/keyring-BrzmE3/ssh, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, os.arch=i386, env.XDG_RUNTIME_DIR=/run/user/ghanshyam, java.ext.dirs=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/ext:/usr/java/packages/lib/ext, user.dir=/home/ghanshyam/Desktop/projectGIT/spring-hibernate-springdata-springmvc-maven-project-framework/commons, env.XAUTHORITY=/home/ghanshyam/.Xauthority, env.MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path, env.GTK_MODULES=overlay-scrollbar, line.separator=
+, java.vm.name=OpenJDK Server VM, env.COLORTERM=gnome-terminal, file.encoding=UTF-8, env.COMPIZ_BIN_PATH=/usr/bin/, env.GPG_AGENT_INFO=/run/user/ghanshyam/keyring-BrzmE3/gpg:0:1, java.specification.version=1.7, env.GNOME_KEYRING_CONTROL=/run/user/ghanshyam/keyring-BrzmE3, env.XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg, env.LESSCLOSE=/usr/bin/lesspipe %s %s}
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] resource with targetPath null
+directory /home/ghanshyam/Desktop/projectGIT/spring-hibernate-springdata-springmvc-maven-project-framework/commons/src/main/resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory /home/ghanshyam/Desktop/projectGIT/spring-hibernate-springdata-springmvc-maven-project-framework/commons/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ commons ---
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:2.0.2:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:1.0.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:1.5.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:1.5.3:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:1.5.3:runtime
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:2.0.2
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:2.0.2
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:2.0.2
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:2.0.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.0.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:1.5.3
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:1.5.3
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:1.5.3
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1-alpha-2
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.0
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:2.0.2, parent: sun.misc.Launcher$AppClassLoader@1941dc9]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile' with basic configurator -->
+[DEBUG]   (f) basedir = /home/ghanshyam/Desktop/projectGIT/spring-hibernate-springdata-springmvc-maven-project-framework/commons
+[DEBUG]   (f) buildDirectory = /home/ghanshyam/Desktop/projectGIT/spring-hibernate-springdata-springmvc-maven-project-framework/commons/target
+[DEBUG]   (f) classpathElements = [/home/ghanshyam/Desktop/projectGIT/spring-hibernate-springdata-springmvc-maven-project-framework/commons/target/classes, /home/ghanshyam/.m2/repository/javax/javaee-web-api/6.0/javaee-web-api-6.0.jar, /home/ghanshyam/.m2/repository/com/sun/faces/jsf-api/2.1.2/jsf-api-2.1.2.jar, /home/ghanshyam/.m2/repository/com/sun/faces/jsf-impl/2.1.2/jsf-impl-2.1.2.jar, /home/ghanshyam/.m2/repository/javax/servlet/jsp/jsp-api/2.1/jsp-api-2.1.jar, /home/ghanshyam/.m2/repository/javax/servlet/jstl/1.2/jstl-1.2.jar, /home/ghanshyam/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar, /home/ghanshyam/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar, /home/ghanshyam/.m2/repository/org/freemarker/freemarker/2.3.19/freemarker-2.3.19.jar, /home/ghanshyam/.m2/repository/org/springframework/spring-core/3.1.1.RELEASE/spring-core-3.1.1.RELEASE.jar, /home/ghanshyam/.m2/repository/org/springframework/spring-asm/3.1.1.RELEASE/spring-asm-3.1.1.RELEASE.jar, /home/ghanshyam/.m2/repository/org/springframework/spring-context/3.1.1.RELEASE/spring-context-3.1.1.RELEASE.jar, /home/ghanshyam/.m2/repository/org/springframework/spring-expression/3.1.1.RELEASE/spring-expression-3.1.1.RELEASE.jar, /home/ghanshyam/.m2/repository/org/springframework/spring-webmvc/3.1.1.RELEASE/spring-webmvc-3.1.1.RELEASE.jar, /home/ghanshyam/.m2/repository/org/springframework/spring-context-support/3.1.1.RELEASE/spring-context-support-3.1.1.RELEASE.jar, /home/ghanshyam/.m2/repository/org/springframework/spring-web/3.1.1.RELEASE/spring-web-3.1.1.RELEASE.jar, /home/ghanshyam/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar, /home/ghanshyam/.m2/repository/org/springframework/spring-aop/3.1.1.RELEASE/spring-aop-3.1.1.RELEASE.jar, /home/ghanshyam/.m2/repository/org/springframework/spring-tx/3.1.1.RELEASE/spring-tx-3.1.1.RELEASE.jar, /home/ghanshyam/.m2/repository/org/springframework/spring-orm/3.1.1.RELEASE/spring-orm-3.1.1.RELEASE.jar, /home/ghanshyam/.m2/repository/org/springframework/spring-jdbc/3.1.1.RELEASE/spring-jdbc-3.1.1.RELEASE.jar, /home/ghanshyam/.m2/repository/org/springframework/spring-oxm/3.1.1.RELEASE/spring-oxm-3.1.1.RELEASE.jar, /home/ghanshyam/.m2/repository/org/springframework/spring-beans/3.1.1.RELEASE/spring-beans-3.1.1.RELEASE.jar, /home/ghanshyam/.m2/repository/org/springframework/spring-jms/3.1.1.RELEASE/spring-jms-3.1.1.RELEASE.jar, /home/ghanshyam/.m2/repository/org/springframework/social/spring-social-core/1.0.1.RELEASE/spring-social-core-1.0.1.RELEASE.jar, /home/ghanshyam/.m2/repository/org/springframework/data/spring-data-mongodb/1.0.1.RELEASE/spring-data-mongodb-1.0.1.RELEASE.jar, /home/ghanshyam/.m2/repository/org/springframework/data/spring-data-commons-core/1.2.1.RELEASE/spring-data-commons-core-1.2.1.RELEASE.jar, /home/ghanshyam/.m2/repository/org/hibernate/hibernate-core/4.0.0.Final/hibernate-core-4.0.0.Final.jar, /home/ghanshyam/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar, /home/ghanshyam/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.1_spec/1.0.0.Final/jboss-transaction-api_1.1_spec-1.0.0.Final.jar, /home/ghanshyam/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar, /home/ghanshyam/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.jar, /home/ghanshyam/.m2/repository/org/jboss/logging/jboss-logging/3.1.0.CR2/jboss-logging-3.1.0.CR2.jar, /home/ghanshyam/.m2/repository/com/fasterxml/classmate/0.5.4/classmate-0.5.4.jar, /home/ghanshyam/.m2/repository/org/jboss/jandex/1.0.3.Final/jandex-1.0.3.Final.jar, /home/ghanshyam/.m2/repository/org/hibernate/common/hibernate-commons-annotations/4.0.1.Final/hibernate-commons-annotations-4.0.1.Final.jar, /home/ghanshyam/.m2/repository/org/hibernate/hibernate-entitymanager/4.0.0.Final/hibernate-entitymanager-4.0.0.Final.jar, /home/ghanshyam/.m2/repository/org/hibernate/hibernate-c3p0/4.0.0.Final/hibernate-c3p0-4.0.0.Final.jar, /home/ghanshyam/.m2/repository/javassist/javassist/3.12.1.GA/javassist-3.12.1.GA.jar, /home/ghanshyam/.m2/repository/mysql/mysql-connector-java/5.1.18/mysql-connector-java-5.1.18.jar, /home/ghanshyam/.m2/repository/c3p0/c3p0/0.9.1.2/c3p0-0.9.1.2.jar, /home/ghanshyam/.m2/repository/org/mongodb/mongo-java-driver/2.7.3/mongo-java-driver-2.7.3.jar, /home/ghanshyam/.m2/repository/org/hibernate/hibernate-validator/4.2.0.Final/hibernate-validator-4.2.0.Final.jar, /home/ghanshyam/.m2/repository/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar, /home/ghanshyam/.m2/repository/org/apache/tiles/tiles-core/2.2.2/tiles-core-2.2.2.jar, /home/ghanshyam/.m2/repository/org/apache/tiles/tiles-api/2.2.2/tiles-api-2.2.2.jar, /home/ghanshyam/.m2/repository/commons-digester/commons-digester/2.0/commons-digester-2.0.jar, /home/ghanshyam/.m2/repository/org/apache/tiles/tiles-jsp/2.2.2/tiles-jsp-2.2.2.jar, /home/ghanshyam/.m2/repository/org/apache/tiles/tiles-servlet/2.2.2/tiles-servlet-2.2.2.jar, /home/ghanshyam/.m2/repository/org/apache/tiles/tiles-template/2.2.2/tiles-template-2.2.2.jar, /home/ghanshyam/.m2/repository/org/quartz-scheduler/quartz/2.1.3/quartz-2.1.3.jar, /home/ghanshyam/.m2/repository/org/apache/camel/camel-core/2.9.1/camel-core-2.9.1.jar, /home/ghanshyam/.m2/repository/org/apache/camel/camel-quartz/2.9.1/camel-quartz-2.9.1.jar, /home/ghanshyam/.m2/repository/org/apache/camel/camel-jms/2.9.1/camel-jms-2.9.1.jar, /home/ghanshyam/.m2/repository/org/apache/camel/camel-spring/2.9.1/camel-spring-2.9.1.jar, /home/ghanshyam/.m2/repository/org/apache/camel/camel-shiro/2.9.1/camel-shiro-2.9.1.jar, /home/ghanshyam/.m2/repository/org/apache/servicemix/bundles/org.apache.servicemix.bundles.shiro/1.1.0_2/org.apache.servicemix.bundles.shiro-1.1.0_2.jar, /home/ghanshyam/.m2/repository/org/apache/activemq/activemq-core/5.5.1/activemq-core-5.5.1.jar, /home/ghanshyam/.m2/repository/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1.jar, /home/ghanshyam/.m2/repository/org/apache/activemq/activeio-core/3.1.2/activeio-core-3.1.2.jar, /home/ghanshyam/.m2/repository/org/apache/activemq/kahadb/5.5.1/kahadb-5.5.1.jar, /home/ghanshyam/.m2/repository/org/apache/activemq/protobuf/activemq-protobuf/1.1/activemq-protobuf-1.1.jar, /home/ghanshyam/.m2/repository/org/osgi/org.osgi.core/4.1.0/org.osgi.core-4.1.0.jar, /home/ghanshyam/.m2/repository/org/apache/geronimo/specs/geronimo-j2ee-management_1.1_spec/1.0.1/geronimo-j2ee-management_1.1_spec-1.0.1.jar, /home/ghanshyam/.m2/repository/commons-net/commons-net/2.0/commons-net-2.0.jar, /home/ghanshyam/.m2/repository/org/jasypt/jasypt/1.7/jasypt-1.7.jar, /home/ghanshyam/.m2/repository/org/apache/shiro/shiro-core/1.2.0/shiro-core-1.2.0.jar, /home/ghanshyam/.m2/repository/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3.jar, /home/ghanshyam/.m2/repository/org/apache/shiro/shiro-web/1.2.0/shiro-web-1.2.0.jar, /home/ghanshyam/.m2/repository/org/apache/shiro/shiro-spring/1.2.0/shiro-spring-1.2.0.jar, /home/ghanshyam/.m2/repository/se/scalablesolutions/akka/akka-actor/1.3.1/akka-actor-1.3.1.jar, /home/ghanshyam/.m2/repository/se/scalablesolutions/akka/akka-spring/1.3.1/akka-spring-1.3.1.jar, /home/ghanshyam/.m2/repository/se/scalablesolutions/akka/akka-typed-actor/1.3.1/akka-typed-actor-1.3.1.jar, /home/ghanshyam/.m2/repository/org/guiceyfruit/guice-all/2.0/guice-all-2.0.jar, /home/ghanshyam/.m2/repository/org/codehaus/aspectwerkz/aspectwerkz/2.2.3/aspectwerkz-2.2.3.jar, /home/ghanshyam/.m2/repository/se/scalablesolutions/akka/akka-stm/1.3.1/akka-stm-1.3.1.jar, /home/ghanshyam/.m2/repository/org/multiverse/multiverse-alpha/0.6.2/multiverse-alpha-0.6.2.jar, /home/ghanshyam/.m2/repository/se/scalablesolutions/akka/akka-remote/1.3.1/akka-remote-1.3.1.jar, /home/ghanshyam/.m2/repository/org/jboss/netty/netty/3.2.5.Final/netty-3.2.5.Final.jar, /home/ghanshyam/.m2/repository/net/debasishg/sjson_2.9.0/0.11/sjson_2.9.0-0.11.jar, /home/ghanshyam/.m2/repository/net/databinder/dispatch-json_2.9.0/0.8.1/dispatch-json_2.9.0-0.8.1.jar, /home/ghanshyam/.m2/repository/org/objenesis/objenesis/1.2/objenesis-1.2.jar, /home/ghanshyam/.m2/repository/voldemort/store/compress/h2-lzf/1.0/h2-lzf-1.0.jar, /home/ghanshyam/.m2/repository/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.jar, /home/ghanshyam/.m2/repository/se/scalablesolutions/akka/akka-camel-typed/1.3.1/akka-camel-typed-1.3.1.jar, /home/ghanshyam/.m2/repository/se/scalablesolutions/akka/akka-camel/1.3.1/akka-camel-1.3.1.jar, /home/ghanshyam/.m2/repository/se/scalablesolutions/akka/akka-slf4j/1.3.1/akka-slf4j-1.3.1.jar, /home/ghanshyam/.m2/repository/org/scala-lang/scala-library/2.9.2/scala-library-2.9.2.jar, /home/ghanshyam/.m2/repository/com/eaio/uuid/uuid/3.3/uuid-3.3.jar, /home/ghanshyam/.m2/repository/joda-time/joda-time/2.0/joda-time-2.0.jar, /home/ghanshyam/.m2/repository/commons-fileupload/commons-fileupload/1.2.2/commons-fileupload-1.2.2.jar, /home/ghanshyam/.m2/repository/commons-io/commons-io/2.1/commons-io-2.1.jar, /home/ghanshyam/.m2/repository/javax/mail/mail/1.4.4/mail-1.4.4.jar, /home/ghanshyam/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar, /home/ghanshyam/.m2/repository/javax/jms/jms/1.1/jms-1.1.jar, /home/ghanshyam/.m2/repository/org/apache/jcs/jcs/1.3/jcs-1.3.jar, /home/ghanshyam/.m2/repository/commons-logging/commons-logging/1.1/commons-logging-1.1.jar, /home/ghanshyam/.m2/repository/log4j/log4j/1.2.12/log4j-1.2.12.jar, /home/ghanshyam/.m2/repository/logkit/logkit/1.0.1/logkit-1.0.1.jar, /home/ghanshyam/.m2/repository/avalon-framework/avalon-framework/4.1.3/avalon-framework-4.1.3.jar, /home/ghanshyam/.m2/repository/javax/servlet/servlet-api/2.3/servlet-api-2.3.jar, /home/ghanshyam/.m2/repository/concurrent/concurrent/1.0/concurrent-1.0.jar, /home/ghanshyam/.m2/repository/org/apache/commons/commons-digester3/3.2/commons-digester3-3.2.jar, /home/ghanshyam/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar, /home/ghanshyam/.m2/repository/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar, /home/ghanshyam/.m2/repository/commons-codec/commons-codec/1.2/commons-codec-1.2.jar, /home/ghanshyam/.m2/repository/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.jar, /home/ghanshyam/.m2/repository/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.jar, /home/ghanshyam/.m2/repository/org/apache/commons/commons-email/1.1/commons-email-1.1.jar, /home/ghanshyam/.m2/repository/commons-math/commons-math/1.2/commons-math-1.2.jar, /home/ghanshyam/.m2/repository/org/aspectj/aspectjrt/1.6.12/aspectjrt-1.6.12.jar, /home/ghanshyam/.m2/repository/org/aspectj/aspectjtools/1.6.12/aspectjtools-1.6.12.jar, /home/ghanshyam/.m2/repository/cglib/cglib/2.2.2/cglib-2.2.2.jar, /home/ghanshyam/.m2/repository/asm/asm/3.3.1/asm-3.3.1.jar, /home/ghanshyam/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.2/jackson-mapper-asl-1.9.2.jar, /home/ghanshyam/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.2/jackson-core-asl-1.9.2.jar, /home/ghanshyam/.m2/repository/xerces/xercesImpl/2.10.0/xercesImpl-2.10.0.jar, /home/ghanshyam/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar, /home/ghanshyam/.m2/repository/org/codehaus/castor/castor-xml/1.3.1/castor-xml-1.3.1.jar, /home/ghanshyam/.m2/repository/org/codehaus/castor/castor-core/1.3.1/castor-core-1.3.1.jar, /home/ghanshyam/.m2/repository/com/thoughtworks/xstream/xstream/1.4.2/xstream-1.4.2.jar, /home/ghanshyam/.m2/repository/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar, /home/ghanshyam/.m2/repository/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar, /home/ghanshyam/.m2/repository/org/projectlombok/lombok/0.10.6/lombok-0.10.6.jar, /home/ghanshyam/.m2/repository/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.jar, /home/ghanshyam/.m2/repository/org/slf4j/jcl-over-slf4j/1.6.4/jcl-over-slf4j-1.6.4.jar, /home/ghanshyam/.m2/repository/ch/qos/logback/logback-core/1.0.1/logback-core-1.0.1.jar, /home/ghanshyam/.m2/repository/ch/qos/logback/logback-classic/1.0.1/logback-classic-1.0.1.jar, /home/ghanshyam/.m2/repository/junit/junit/4.10/junit-4.10.jar, /home/ghanshyam/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar]
+[DEBUG]   (f) compileSourceRoots = [/home/ghanshyam/Desktop/projectGIT/spring-hibernate-springdata-springmvc-maven-project-framework/commons/src/main/java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /home/ghanshyam/Desktop/projectGIT/spring-hibernate-springdata-springmvc-maven-project-framework/commons/target/classes
+[DEBUG]   (f) outputFileName = commons-0.1.0
+[DEBUG]   (f) projectArtifact = com.yourpackagename:commons:jar:0.1.0
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [/home/ghanshyam/Desktop/projectGIT/spring-hibernate-springdata-springmvc-maven-project-framework/commons/src/main/java]
+[DEBUG] Classpath: [/home/ghanshyam/Desktop/projectGIT/spring-hibernate-springdata-springmvc-maven-project-framework/commons/target/classes
+ /home/ghanshyam/.m2/repository/javax/javaee-web-api/6.0/javaee-web-api-6.0.jar
+ /home/ghanshyam/.m2/repository/com/sun/faces/jsf-api/2.1.2/jsf-api-2.1.2.jar
+ /home/ghanshyam/.m2/repository/com/sun/faces/jsf-impl/2.1.2/jsf-impl-2.1.2.jar
+ /home/ghanshyam/.m2/repository/javax/servlet/jsp/jsp-api/2.1/jsp-api-2.1.jar
+ /home/ghanshyam/.m2/repository/javax/servlet/jstl/1.2/jstl-1.2.jar
+ /home/ghanshyam/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar
+ /home/ghanshyam/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar
+ /home/ghanshyam/.m2/repository/org/freemarker/freemarker/2.3.19/freemarker-2.3.19.jar
+ /home/ghanshyam/.m2/repository/org/springframework/spring-core/3.1.1.RELEASE/spring-core-3.1.1.RELEASE.jar
+ /home/ghanshyam/.m2/repository/org/springframework/spring-asm/3.1.1.RELEASE/spring-asm-3.1.1.RELEASE.jar
+ /home/ghanshyam/.m2/repository/org/springframework/spring-context/3.1.1.RELEASE/spring-context-3.1.1.RELEASE.jar
+ /home/ghanshyam/.m2/repository/org/springframework/spring-expression/3.1.1.RELEASE/spring-expression-3.1.1.RELEASE.jar
+ /home/ghanshyam/.m2/repository/org/springframework/spring-webmvc/3.1.1.RELEASE/spring-webmvc-3.1.1.RELEASE.jar
+ /home/ghanshyam/.m2/repository/org/springframework/spring-context-support/3.1.1.RELEASE/spring-context-support-3.1.1.RELEASE.jar
+ /home/ghanshyam/.m2/repository/org/springframework/spring-web/3.1.1.RELEASE/spring-web-3.1.1.RELEASE.jar
+ /home/ghanshyam/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+ /home/ghanshyam/.m2/repository/org/springframework/spring-aop/3.1.1.RELEASE/spring-aop-3.1.1.RELEASE.jar
+ /home/ghanshyam/.m2/repository/org/springframework/spring-tx/3.1.1.RELEASE/spring-tx-3.1.1.RELEASE.jar
+ /home/ghanshyam/.m2/repository/org/springframework/spring-orm/3.1.1.RELEASE/spring-orm-3.1.1.RELEASE.jar
+ /home/ghanshyam/.m2/repository/org/springframework/spring-jdbc/3.1.1.RELEASE/spring-jdbc-3.1.1.RELEASE.jar
+ /home/ghanshyam/.m2/repository/org/springframework/spring-oxm/3.1.1.RELEASE/spring-oxm-3.1.1.RELEASE.jar
+ /home/ghanshyam/.m2/repository/org/springframework/spring-beans/3.1.1.RELEASE/spring-beans-3.1.1.RELEASE.jar
+ /home/ghanshyam/.m2/repository/org/springframework/spring-jms/3.1.1.RELEASE/spring-jms-3.1.1.RELEASE.jar
+ /home/ghanshyam/.m2/repository/org/springframework/social/spring-social-core/1.0.1.RELEASE/spring-social-core-1.0.1.RELEASE.jar
+ /home/ghanshyam/.m2/repository/org/springframework/data/spring-data-mongodb/1.0.1.RELEASE/spring-data-mongodb-1.0.1.RELEASE.jar
+ /home/ghanshyam/.m2/repository/org/springframework/data/spring-data-commons-core/1.2.1.RELEASE/spring-data-commons-core-1.2.1.RELEASE.jar
+ /home/ghanshyam/.m2/repository/org/hibernate/hibernate-core/4.0.0.Final/hibernate-core-4.0.0.Final.jar
+ /home/ghanshyam/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar
+ /home/ghanshyam/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.1_spec/1.0.0.Final/jboss-transaction-api_1.1_spec-1.0.0.Final.jar
+ /home/ghanshyam/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar
+ /home/ghanshyam/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.jar
+ /home/ghanshyam/.m2/repository/org/jboss/logging/jboss-logging/3.1.0.CR2/jboss-logging-3.1.0.CR2.jar
+ /home/ghanshyam/.m2/repository/com/fasterxml/classmate/0.5.4/classmate-0.5.4.jar
+ /home/ghanshyam/.m2/repository/org/jboss/jandex/1.0.3.Final/jandex-1.0.3.Final.jar
+ /home/ghanshyam/.m2/repository/org/hibernate/common/hibernate-commons-annotations/4.0.1.Final/hibernate-commons-annotations-4.0.1.Final.jar
+ /home/ghanshyam/.m2/repository/org/hibernate/hibernate-entitymanager/4.0.0.Final/hibernate-entitymanager-4.0.0.Final.jar
+ /home/ghanshyam/.m2/repository/org/hibernate/hibernate-c3p0/4.0.0.Final/hibernate-c3p0-4.0.0.Final.jar
+ /home/ghanshyam/.m2/repository/javassist/javassist/3.12.1.GA/javassist-3.12.1.GA.jar
+ /home/ghanshyam/.m2/repository/mysql/mysql-connector-java/5.1.18/mysql-connector-java-5.1.18.jar
+ /home/ghanshyam/.m2/repository/c3p0/c3p0/0.9.1.2/c3p0-0.9.1.2.jar
+ /home/ghanshyam/.m2/repository/org/mongodb/mongo-java-driver/2.7.3/mongo-java-driver-2.7.3.jar
+ /home/ghanshyam/.m2/repository/org/hibernate/hibernate-validator/4.2.0.Final/hibernate-validator-4.2.0.Final.jar
+ /home/ghanshyam/.m2/repository/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar
+ /home/ghanshyam/.m2/repository/org/apache/tiles/tiles-core/2.2.2/tiles-core-2.2.2.jar
+ /home/ghanshyam/.m2/repository/org/apache/tiles/tiles-api/2.2.2/tiles-api-2.2.2.jar
+ /home/ghanshyam/.m2/repository/commons-digester/commons-digester/2.0/commons-digester-2.0.jar
+ /home/ghanshyam/.m2/repository/org/apache/tiles/tiles-jsp/2.2.2/tiles-jsp-2.2.2.jar
+ /home/ghanshyam/.m2/repository/org/apache/tiles/tiles-servlet/2.2.2/tiles-servlet-2.2.2.jar
+ /home/ghanshyam/.m2/repository/org/apache/tiles/tiles-template/2.2.2/tiles-template-2.2.2.jar
+ /home/ghanshyam/.m2/repository/org/quartz-scheduler/quartz/2.1.3/quartz-2.1.3.jar
+ /home/ghanshyam/.m2/repository/org/apache/camel/camel-core/2.9.1/camel-core-2.9.1.jar
+ /home/ghanshyam/.m2/repository/org/apache/camel/camel-quartz/2.9.1/camel-quartz-2.9.1.jar
+ /home/ghanshyam/.m2/repository/org/apache/camel/camel-jms/2.9.1/camel-jms-2.9.1.jar
+ /home/ghanshyam/.m2/repository/org/apache/camel/camel-spring/2.9.1/camel-spring-2.9.1.jar
+ /home/ghanshyam/.m2/repository/org/apache/camel/camel-shiro/2.9.1/camel-shiro-2.9.1.jar
+ /home/ghanshyam/.m2/repository/org/apache/servicemix/bundles/org.apache.servicemix.bundles.shiro/1.1.0_2/org.apache.servicemix.bundles.shiro-1.1.0_2.jar
+ /home/ghanshyam/.m2/repository/org/apache/activemq/activemq-core/5.5.1/activemq-core-5.5.1.jar
+ /home/ghanshyam/.m2/repository/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1.jar
+ /home/ghanshyam/.m2/repository/org/apache/activemq/activeio-core/3.1.2/activeio-core-3.1.2.jar
+ /home/ghanshyam/.m2/repository/org/apache/activemq/kahadb/5.5.1/kahadb-5.5.1.jar
+ /home/ghanshyam/.m2/repository/org/apache/activemq/protobuf/activemq-protobuf/1.1/activemq-protobuf-1.1.jar
+ /home/ghanshyam/.m2/repository/org/osgi/org.osgi.core/4.1.0/org.osgi.core-4.1.0.jar
+ /home/ghanshyam/.m2/repository/org/apache/geronimo/specs/geronimo-j2ee-management_1.1_spec/1.0.1/geronimo-j2ee-management_1.1_spec-1.0.1.jar
+ /home/ghanshyam/.m2/repository/commons-net/commons-net/2.0/commons-net-2.0.jar
+ /home/ghanshyam/.m2/repository/org/jasypt/jasypt/1.7/jasypt-1.7.jar
+ /home/ghanshyam/.m2/repository/org/apache/shiro/shiro-core/1.2.0/shiro-core-1.2.0.jar
+ /home/ghanshyam/.m2/repository/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3.jar
+ /home/ghanshyam/.m2/repository/org/apache/shiro/shiro-web/1.2.0/shiro-web-1.2.0.jar
+ /home/ghanshyam/.m2/repository/org/apache/shiro/shiro-spring/1.2.0/shiro-spring-1.2.0.jar
+ /home/ghanshyam/.m2/repository/se/scalablesolutions/akka/akka-actor/1.3.1/akka-actor-1.3.1.jar
+ /home/ghanshyam/.m2/repository/se/scalablesolutions/akka/akka-spring/1.3.1/akka-spring-1.3.1.jar
+ /home/ghanshyam/.m2/repository/se/scalablesolutions/akka/akka-typed-actor/1.3.1/akka-typed-actor-1.3.1.jar
+ /home/ghanshyam/.m2/repository/org/guiceyfruit/guice-all/2.0/guice-all-2.0.jar
+ /home/ghanshyam/.m2/repository/org/codehaus/aspectwerkz/aspectwerkz/2.2.3/aspectwerkz-2.2.3.jar
+ /home/ghanshyam/.m2/repository/se/scalablesolutions/akka/akka-stm/1.3.1/akka-stm-1.3.1.jar
+ /home/ghanshyam/.m2/repository/org/multiverse/multiverse-alpha/0.6.2/multiverse-alpha-0.6.2.jar
+ /home/ghanshyam/.m2/repository/se/scalablesolutions/akka/akka-remote/1.3.1/akka-remote-1.3.1.jar
+ /home/ghanshyam/.m2/repository/org/jboss/netty/netty/3.2.5.Final/netty-3.2.5.Final.jar
+ /home/ghanshyam/.m2/repository/net/debasishg/sjson_2.9.0/0.11/sjson_2.9.0-0.11.jar
+ /home/ghanshyam/.m2/repository/net/databinder/dispatch-json_2.9.0/0.8.1/dispatch-json_2.9.0-0.8.1.jar
+ /home/ghanshyam/.m2/repository/org/objenesis/objenesis/1.2/objenesis-1.2.jar
+ /home/ghanshyam/.m2/repository/voldemort/store/compress/h2-lzf/1.0/h2-lzf-1.0.jar
+ /home/ghanshyam/.m2/repository/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.jar
+ /home/ghanshyam/.m2/repository/se/scalablesolutions/akka/akka-camel-typed/1.3.1/akka-camel-typed-1.3.1.jar
+ /home/ghanshyam/.m2/repository/se/scalablesolutions/akka/akka-camel/1.3.1/akka-camel-1.3.1.jar
+ /home/ghanshyam/.m2/repository/se/scalablesolutions/akka/akka-slf4j/1.3.1/akka-slf4j-1.3.1.jar
+ /home/ghanshyam/.m2/repository/org/scala-lang/scala-library/2.9.2/scala-library-2.9.2.jar
+ /home/ghanshyam/.m2/repository/com/eaio/uuid/uuid/3.3/uuid-3.3.jar
+ /home/ghanshyam/.m2/repository/joda-time/joda-time/2.0/joda-time-2.0.jar
+ /home/ghanshyam/.m2/repository/commons-fileupload/commons-fileupload/1.2.2/commons-fileupload-1.2.2.jar
+ /home/ghanshyam/.m2/repository/commons-io/commons-io/2.1/commons-io-2.1.jar
+ /home/ghanshyam/.m2/repository/javax/mail/mail/1.4.4/mail-1.4.4.jar
+ /home/ghanshyam/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar
+ /home/ghanshyam/.m2/repository/javax/jms/jms/1.1/jms-1.1.jar
+ /home/ghanshyam/.m2/repository/org/apache/jcs/jcs/1.3/jcs-1.3.jar
+ /home/ghanshyam/.m2/repository/commons-logging/commons-logging/1.1/commons-logging-1.1.jar
+ /home/ghanshyam/.m2/repository/log4j/log4j/1.2.12/log4j-1.2.12.jar
+ /home/ghanshyam/.m2/repository/logkit/logkit/1.0.1/logkit-1.0.1.jar
+ /home/ghanshyam/.m2/repository/avalon-framework/avalon-framework/4.1.3/avalon-framework-4.1.3.jar
+ /home/ghanshyam/.m2/repository/javax/servlet/servlet-api/2.3/servlet-api-2.3.jar
+ /home/ghanshyam/.m2/repository/concurrent/concurrent/1.0/concurrent-1.0.jar
+ /home/ghanshyam/.m2/repository/org/apache/commons/commons-digester3/3.2/commons-digester3-3.2.jar
+ /home/ghanshyam/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar
+ /home/ghanshyam/.m2/repository/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar
+ /home/ghanshyam/.m2/repository/commons-codec/commons-codec/1.2/commons-codec-1.2.jar
+ /home/ghanshyam/.m2/repository/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.jar
+ /home/ghanshyam/.m2/repository/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.jar
+ /home/ghanshyam/.m2/repository/org/apache/commons/commons-email/1.1/commons-email-1.1.jar
+ /home/ghanshyam/.m2/repository/commons-math/commons-math/1.2/commons-math-1.2.jar
+ /home/ghanshyam/.m2/repository/org/aspectj/aspectjrt/1.6.12/aspectjrt-1.6.12.jar
+ /home/ghanshyam/.m2/repository/org/aspectj/aspectjtools/1.6.12/aspectjtools-1.6.12.jar
+ /home/ghanshyam/.m2/repository/cglib/cglib/2.2.2/cglib-2.2.2.jar
+ /home/ghanshyam/.m2/repository/asm/asm/3.3.1/asm-3.3.1.jar
+ /home/ghanshyam/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.2/jackson-mapper-asl-1.9.2.jar
+ /home/ghanshyam/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.2/jackson-core-asl-1.9.2.jar
+ /home/ghanshyam/.m2/repository/xerces/xercesImpl/2.10.0/xercesImpl-2.10.0.jar
+ /home/ghanshyam/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar
+ /home/ghanshyam/.m2/repository/org/codehaus/castor/castor-xml/1.3.1/castor-xml-1.3.1.jar
+ /home/ghanshyam/.m2/repository/org/codehaus/castor/castor-core/1.3.1/castor-core-1.3.1.jar
+ /home/ghanshyam/.m2/repository/com/thoughtworks/xstream/xstream/1.4.2/xstream-1.4.2.jar
+ /home/ghanshyam/.m2/repository/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar
+ /home/ghanshyam/.m2/repository/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar
+ /home/ghanshyam/.m2/repository/org/projectlombok/lombok/0.10.6/lombok-0.10.6.jar
+ /home/ghanshyam/.m2/repository/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.jar
+ /home/ghanshyam/.m2/repository/org/slf4j/jcl-over-slf4j/1.6.4/jcl-over-slf4j-1.6.4.jar
+ /home/ghanshyam/.m2/repository/ch/qos/logback/logback-core/1.0.1/logback-core-1.0.1.jar
+ /home/ghanshyam/.m2/repository/ch/qos/logback/logback-classic/1.0.1/logback-classic-1.0.1.jar
+ /home/ghanshyam/.m2/repository/junit/junit/4.10/junit-4.10.jar
+ /home/ghanshyam/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar]
+[DEBUG] Output directory: /home/ghanshyam/Desktop/projectGIT/spring-hibernate-springdata-springmvc-maven-project-framework/commons/target/classes
+[DEBUG] Classpath:
+[DEBUG]  /home/ghanshyam/Desktop/projectGIT/spring-hibernate-springdata-springmvc-maven-project-framework/commons/target/classes
+[DEBUG]  /home/ghanshyam/.m2/repository/javax/javaee-web-api/6.0/javaee-web-api-6.0.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/com/sun/faces/jsf-api/2.1.2/jsf-api-2.1.2.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/com/sun/faces/jsf-impl/2.1.2/jsf-impl-2.1.2.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/javax/servlet/jsp/jsp-api/2.1/jsp-api-2.1.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/javax/servlet/jstl/1.2/jstl-1.2.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/freemarker/freemarker/2.3.19/freemarker-2.3.19.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/springframework/spring-core/3.1.1.RELEASE/spring-core-3.1.1.RELEASE.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/springframework/spring-asm/3.1.1.RELEASE/spring-asm-3.1.1.RELEASE.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/springframework/spring-context/3.1.1.RELEASE/spring-context-3.1.1.RELEASE.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/springframework/spring-expression/3.1.1.RELEASE/spring-expression-3.1.1.RELEASE.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/springframework/spring-webmvc/3.1.1.RELEASE/spring-webmvc-3.1.1.RELEASE.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/springframework/spring-context-support/3.1.1.RELEASE/spring-context-support-3.1.1.RELEASE.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/springframework/spring-web/3.1.1.RELEASE/spring-web-3.1.1.RELEASE.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/springframework/spring-aop/3.1.1.RELEASE/spring-aop-3.1.1.RELEASE.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/springframework/spring-tx/3.1.1.RELEASE/spring-tx-3.1.1.RELEASE.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/springframework/spring-orm/3.1.1.RELEASE/spring-orm-3.1.1.RELEASE.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/springframework/spring-jdbc/3.1.1.RELEASE/spring-jdbc-3.1.1.RELEASE.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/springframework/spring-oxm/3.1.1.RELEASE/spring-oxm-3.1.1.RELEASE.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/springframework/spring-beans/3.1.1.RELEASE/spring-beans-3.1.1.RELEASE.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/springframework/spring-jms/3.1.1.RELEASE/spring-jms-3.1.1.RELEASE.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/springframework/social/spring-social-core/1.0.1.RELEASE/spring-social-core-1.0.1.RELEASE.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/springframework/data/spring-data-mongodb/1.0.1.RELEASE/spring-data-mongodb-1.0.1.RELEASE.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/springframework/data/spring-data-commons-core/1.2.1.RELEASE/spring-data-commons-core-1.2.1.RELEASE.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/hibernate/hibernate-core/4.0.0.Final/hibernate-core-4.0.0.Final.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.1_spec/1.0.0.Final/jboss-transaction-api_1.1_spec-1.0.0.Final.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/jboss/logging/jboss-logging/3.1.0.CR2/jboss-logging-3.1.0.CR2.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/com/fasterxml/classmate/0.5.4/classmate-0.5.4.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/jboss/jandex/1.0.3.Final/jandex-1.0.3.Final.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/hibernate/common/hibernate-commons-annotations/4.0.1.Final/hibernate-commons-annotations-4.0.1.Final.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/hibernate/hibernate-entitymanager/4.0.0.Final/hibernate-entitymanager-4.0.0.Final.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/hibernate/hibernate-c3p0/4.0.0.Final/hibernate-c3p0-4.0.0.Final.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/javassist/javassist/3.12.1.GA/javassist-3.12.1.GA.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/mysql/mysql-connector-java/5.1.18/mysql-connector-java-5.1.18.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/c3p0/c3p0/0.9.1.2/c3p0-0.9.1.2.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/mongodb/mongo-java-driver/2.7.3/mongo-java-driver-2.7.3.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/hibernate/hibernate-validator/4.2.0.Final/hibernate-validator-4.2.0.Final.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/apache/tiles/tiles-core/2.2.2/tiles-core-2.2.2.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/apache/tiles/tiles-api/2.2.2/tiles-api-2.2.2.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/commons-digester/commons-digester/2.0/commons-digester-2.0.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/apache/tiles/tiles-jsp/2.2.2/tiles-jsp-2.2.2.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/apache/tiles/tiles-servlet/2.2.2/tiles-servlet-2.2.2.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/apache/tiles/tiles-template/2.2.2/tiles-template-2.2.2.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/quartz-scheduler/quartz/2.1.3/quartz-2.1.3.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/apache/camel/camel-core/2.9.1/camel-core-2.9.1.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/apache/camel/camel-quartz/2.9.1/camel-quartz-2.9.1.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/apache/camel/camel-jms/2.9.1/camel-jms-2.9.1.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/apache/camel/camel-spring/2.9.1/camel-spring-2.9.1.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/apache/camel/camel-shiro/2.9.1/camel-shiro-2.9.1.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/apache/servicemix/bundles/org.apache.servicemix.bundles.shiro/1.1.0_2/org.apache.servicemix.bundles.shiro-1.1.0_2.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/apache/activemq/activemq-core/5.5.1/activemq-core-5.5.1.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/apache/activemq/activeio-core/3.1.2/activeio-core-3.1.2.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/apache/activemq/kahadb/5.5.1/kahadb-5.5.1.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/apache/activemq/protobuf/activemq-protobuf/1.1/activemq-protobuf-1.1.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/osgi/org.osgi.core/4.1.0/org.osgi.core-4.1.0.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/apache/geronimo/specs/geronimo-j2ee-management_1.1_spec/1.0.1/geronimo-j2ee-management_1.1_spec-1.0.1.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/commons-net/commons-net/2.0/commons-net-2.0.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/jasypt/jasypt/1.7/jasypt-1.7.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/apache/shiro/shiro-core/1.2.0/shiro-core-1.2.0.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/apache/shiro/shiro-web/1.2.0/shiro-web-1.2.0.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/apache/shiro/shiro-spring/1.2.0/shiro-spring-1.2.0.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/se/scalablesolutions/akka/akka-actor/1.3.1/akka-actor-1.3.1.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/se/scalablesolutions/akka/akka-spring/1.3.1/akka-spring-1.3.1.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/se/scalablesolutions/akka/akka-typed-actor/1.3.1/akka-typed-actor-1.3.1.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/guiceyfruit/guice-all/2.0/guice-all-2.0.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/codehaus/aspectwerkz/aspectwerkz/2.2.3/aspectwerkz-2.2.3.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/se/scalablesolutions/akka/akka-stm/1.3.1/akka-stm-1.3.1.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/multiverse/multiverse-alpha/0.6.2/multiverse-alpha-0.6.2.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/se/scalablesolutions/akka/akka-remote/1.3.1/akka-remote-1.3.1.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/jboss/netty/netty/3.2.5.Final/netty-3.2.5.Final.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/net/debasishg/sjson_2.9.0/0.11/sjson_2.9.0-0.11.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/net/databinder/dispatch-json_2.9.0/0.8.1/dispatch-json_2.9.0-0.8.1.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/objenesis/objenesis/1.2/objenesis-1.2.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/voldemort/store/compress/h2-lzf/1.0/h2-lzf-1.0.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/se/scalablesolutions/akka/akka-camel-typed/1.3.1/akka-camel-typed-1.3.1.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/se/scalablesolutions/akka/akka-camel/1.3.1/akka-camel-1.3.1.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/se/scalablesolutions/akka/akka-slf4j/1.3.1/akka-slf4j-1.3.1.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/scala-lang/scala-library/2.9.2/scala-library-2.9.2.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/com/eaio/uuid/uuid/3.3/uuid-3.3.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/joda-time/joda-time/2.0/joda-time-2.0.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/commons-fileupload/commons-fileupload/1.2.2/commons-fileupload-1.2.2.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/commons-io/commons-io/2.1/commons-io-2.1.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/javax/mail/mail/1.4.4/mail-1.4.4.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/javax/jms/jms/1.1/jms-1.1.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/apache/jcs/jcs/1.3/jcs-1.3.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/commons-logging/commons-logging/1.1/commons-logging-1.1.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/log4j/log4j/1.2.12/log4j-1.2.12.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/logkit/logkit/1.0.1/logkit-1.0.1.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/avalon-framework/avalon-framework/4.1.3/avalon-framework-4.1.3.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/javax/servlet/servlet-api/2.3/servlet-api-2.3.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/concurrent/concurrent/1.0/concurrent-1.0.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/apache/commons/commons-digester3/3.2/commons-digester3-3.2.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/commons-codec/commons-codec/1.2/commons-codec-1.2.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/apache/commons/commons-email/1.1/commons-email-1.1.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/commons-math/commons-math/1.2/commons-math-1.2.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/aspectj/aspectjrt/1.6.12/aspectjrt-1.6.12.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/aspectj/aspectjtools/1.6.12/aspectjtools-1.6.12.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/cglib/cglib/2.2.2/cglib-2.2.2.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/asm/asm/3.3.1/asm-3.3.1.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.2/jackson-mapper-asl-1.9.2.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.2/jackson-core-asl-1.9.2.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/xerces/xercesImpl/2.10.0/xercesImpl-2.10.0.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/codehaus/castor/castor-xml/1.3.1/castor-xml-1.3.1.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/codehaus/castor/castor-core/1.3.1/castor-core-1.3.1.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/com/thoughtworks/xstream/xstream/1.4.2/xstream-1.4.2.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/projectlombok/lombok/0.10.6/lombok-0.10.6.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/slf4j/jcl-over-slf4j/1.6.4/jcl-over-slf4j-1.6.4.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/ch/qos/logback/logback-core/1.0.1/logback-core-1.0.1.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/ch/qos/logback/logback-classic/1.0.1/logback-classic-1.0.1.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/junit/junit/4.10/junit-4.10.jar
+[DEBUG]  /home/ghanshyam/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
+[DEBUG] Source roots:
+[DEBUG]  /home/ghanshyam/Desktop/projectGIT/spring-hibernate-springdata-springmvc-maven-project-framework/commons/src/main/java
+[INFO] Compiling 11 source files to /home/ghanshyam/Desktop/projectGIT/spring-hibernate-springdata-springmvc-maven-project-framework/commons/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.489s
+[INFO] Finished at: Sun May 11 19:02:20 IST 2014
+[INFO] Final Memory: 20M/147M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile (default-compile) on project commons: Compilation failure: Compilation failure:
+[ERROR] /home/ghanshyam/Desktop/projectGIT/spring-hibernate-springdata-springmvc-maven-project-framework/commons/src/main/java/com/yourpackagename/commons/filter/DisableUrlSessionFilter.java:[17,5] error: annotations are not supported in -source 1.3
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable annotations)
+[ERROR] /home/ghanshyam/Desktop/projectGIT/spring-hibernate-springdata-springmvc-maven-project-framework/commons/src/main/java/com/yourpackagename/commons/filter/Utf8Filter.java:[13,5] error: annotations are not supported in -source 1.3
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable annotations)
+[ERROR] /home/ghanshyam/Desktop/projectGIT/spring-hibernate-springdata-springmvc-maven-project-framework/commons/src/main/java/com/yourpackagename/commons/util/JavaMail.java:[36,47] error: generics are not supported in -source 1.3
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable generics)
+[ERROR] /home/ghanshyam/Desktop/projectGIT/spring-hibernate-springdata-springmvc-maven-project-framework/commons/src/main/java/com/yourpackagename/commons/util/JavaMail.java:[49,26] error: for-each loops are not supported in -source 1.3
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable for-each loops)
+[ERROR] /home/ghanshyam/Desktop/projectGIT/spring-hibernate-springdata-springmvc-maven-project-framework/commons/src/main/java/com/yourpackagename/commons/util/FileHandler.java:[109,22] error: generics are not supported in -source 1.3
+[ERROR] -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile (default-compile) on project commons: Compilation failure
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:213)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:84)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:59)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.singleThreadedBuild(LifecycleStarter.java:183)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:161)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:320)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:156)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:537)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:196)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:290)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:230)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:409)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:352)
+Caused by: org.apache.maven.plugin.CompilationFailureException: Compilation failure
+	at org.apache.maven.plugin.AbstractCompilerMojo.execute(AbstractCompilerMojo.java:516)
+	at org.apache.maven.plugin.CompilerMojo.execute(CompilerMojo.java:114)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:101)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:209)
+	... 19 more
+[ERROR] 
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

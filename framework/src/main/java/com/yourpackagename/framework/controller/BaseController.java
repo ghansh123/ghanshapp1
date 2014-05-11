@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
  * All controllers in spring should extend this controller so as to have
  * centralize control for doing any sort of common functionality.
  *
- * @author : Y Kamesh Rao
+ * @author : 
  */
 @Controller
 public class BaseController extends AbstractController {
